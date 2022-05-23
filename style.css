@@ -347,7 +347,7 @@ form:hover .fa{
 .wwd{
   padding: 0 50px 0 50px; 
   margin-top: 170px;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
   color: #fff;
   text-align: left;
   font-size: 23px;
@@ -359,4 +359,8 @@ form:hover .fa{
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+  margin-bottom: 40px;
+}
+.gifsp{
+  padding-top: 20px;
 }
