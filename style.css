@@ -3,6 +3,13 @@ html, body {
   width: 100%;
   background: #000;
 }
+a{
+  text-decoration: none;
+  color: #fff !important;
+}
+a:hover{
+  color: #4cd964 !important;
+}
 .tag1{
   height: 30px;
   background: linear-gradient(90deg, rgb(230, 70, 182), rgb(255, 102, 102));
@@ -352,10 +359,12 @@ form:hover .fa{
   text-align: left;
   font-size: 23px;
 }
-
+.gs{
+  padding-bottom: 60px;
+}
 .gs h2{
   color: #fff;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -363,4 +372,25 @@ form:hover .fa{
 }
 .gifsp{
   padding-top: 20px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.gifsp h3{
+  color: #fff;
+  font-size: 28px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.gifsplm{
+ color: #fff; 
+  font-family: "Montserrat", sans-serif;
+}
+.gifsplm h3{
+  color: #fff;
+  font-size: 28px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: -35px;
 }
