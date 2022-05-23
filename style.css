@@ -2,6 +2,17 @@ html, body {
   height: 100%;
   width: 100%;
 }
+.tag1{
+  height: 30px;
+  background: linear-gradient(90deg, rgb(230, 70, 182), rgb(255, 102, 102));
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
 /* Customized navbar components */
 
 nav{
@@ -15,18 +26,17 @@ nav{
   z-index:1;
 /*   background-color: rgba(0, 0, 0, 0.644) !important; */
   background-color: #000 !important;
+/*   padding-left: 100px; */
 }
 .navbar-brand{
-  padding-left: 10px;
-  border-left: 4px solid #c377e0 ;
   color: #fff !important;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px; 
-  margin-left: 65px;
-  margin-right: 60px;
+  margin-left: 180px;
+  margin-right: 0px;
 }
 
 /* Custom Responsiveness */
@@ -61,6 +71,9 @@ nav{
 .navbar-toggler{
   margin-right: 28px;
 }
+#navbarNav ul{
+  margin-left: 700px !important;
+}
 #navbarNav ul li{
   margin-right: 40px !important;
 }
@@ -88,14 +101,15 @@ header {
 .intro h2{
   color: #fff;
   padding-top: 160px;
-  padding-bottom: 20px;
-  font-size: 38px;
+  padding-bottom: 15px;
+  font-size: 50px;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  text-align: left;
 }
 .intro p{
-  text-align: center;
+  text-align: left;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
 }
 .intro .btn-get-started {
