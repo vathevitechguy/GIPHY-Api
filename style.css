@@ -101,7 +101,7 @@ header {
 }
 .intro h2{
   color: #fff;
-  padding-top: 160px;
+  padding-top: 140px;
   padding-bottom: 15px;
   font-size: 50px;
   font-weight: 700;
@@ -176,7 +176,7 @@ form:hover .fa{
 	margin: 0 auto;
 	width: 24px;
 	height: 100px;
-	margin-top: 125px;
+	margin-top: -30px;
 }
 
 .m_scroll_arrows
@@ -231,8 +231,7 @@ form:hover .fa{
   margin-top: -6px;
 }
 
-.trei
-{
+.trei{
   -webkit-animation-delay: .3s;
   -moz-animation-delay: .3s;
   -webkit-animation-direction: alternate;
@@ -339,7 +338,7 @@ form:hover .fa{
 
 .wwd{
   padding: 0 120px 0 120px; 
-  margin-top: 90px;
+  margin-top: 150px;
   color: #fff;
   text-align: center;
   font-size: 25px;
