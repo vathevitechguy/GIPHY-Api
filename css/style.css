@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   background: #000;
+  font-family: "Montserrat", sans-serif;
 }
 a{
   text-decoration: none;
@@ -400,8 +401,8 @@ header {
 
 /* Advice Section */
 .advice-sec{
-  height: 450px;
-  padding-top: 60px;
+  height: 480px;
+  padding-top: 70px;
   background: hsla(130, 65%, 57%, 1);
 
   background: hsla(130, 65%, 57%, 1);
@@ -428,6 +429,12 @@ header {
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   text-align: center;
+}
+.advice-sec h4{
+  color: #fff;
+  border-left: 5px solid #000;
+  
+  padding-left: 8px;
 }
 .speech-bubble {
   padding:50px 20px 50px 20px;
@@ -469,8 +476,8 @@ header {
 #reset{
   background: #fff;
   color: #000;
-  float: right;
-  margin-top: 10px;
+  margin-top: 15px;
+  justify-self: center;
   font-size: 17px;
   padding: 15px;
   outline: none;
