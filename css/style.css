@@ -4,6 +4,9 @@ html, body {
   background: #000;
   font-family: "Montserrat", sans-serif;
 }
+ul li{
+  list-style-type: none;
+}
 a{
   text-decoration: none;
   color: #fff !important;
@@ -556,8 +559,13 @@ footer {
       font-size: 16px;
       color: #fff;
       text-transform: capitalize; }
+  #info li{
+    margin-left: -35px;
+    margin-bottom: 10px;
+  }
   .footer-04 p {
-    color: rgba(255, 255, 255, 0.3); }
+    color: rgba(255, 255, 255, 0.3); 
+  }
   .footer-04 a {
     color: #f7b633; }
   .footer-04 .ftco-footer-social li a {
