@@ -434,7 +434,7 @@ header {
   margin-top: 10px;
   font-size: 25px;
   color: #fff !important;
-  font-weight: bold;
+  font-weight: normal;
   position: relative;
   background: #000;
   border-radius: .4em;
@@ -467,10 +467,16 @@ header {
 } */
 
 #reset{
-  background: #0dd30d;
-  color: #fff;
+  background: #fff;
+  color: #000;
   float: right;
-  margin-top: 30px;
+  margin-top: 10px;
+  font-size: 17px;
+  padding: 15px;
+  outline: none;
+}
+#reset:hover{
+  color: #4cd964;
 }
 
 
