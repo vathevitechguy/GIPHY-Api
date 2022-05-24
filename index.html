@@ -124,9 +124,14 @@ have arrived! Learn about adding Clips to your app in our documentation!
       <div class="container">
         <h2>Need An Advice Today?</h2>
         <p>Use our advice generator to keep yourself going today</p>
-
-        <p id="advice"  class="speech-bubble"></p>
-        <button type="button" class="btn btn-lg" id="reset" onclick="reset()">Randomize</button>
+        <div class="row">
+          <div class="col-md-6">
+            <button type="button" class="btn btn-lg" id="reset" onclick="reset()">Generate New</button>
+          </div>
+          <div class="col-md-6">
+            <p id="advice"  class="speech-bubble"></p>
+          </div>
+        </div>
       </div>
     </section>
     
@@ -179,7 +184,7 @@ have arrived! Learn about adding Clips to your app in our documentation!
 			</div>
 		</footer>
   
-    <script src="script.js"></script>
-    <script src="advice.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/advice.js"></script>
   </body>
 </html>
