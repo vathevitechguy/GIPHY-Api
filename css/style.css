@@ -398,6 +398,34 @@ header {
 
 
 
+/* Advice Section */
+.advice-sec{
+  height: 434px;
+  padding-top: 60px;
+  background: hsla(130, 65%, 57%, 1);
+
+background: hsla(130, 65%, 57%, 1);
+
+background: linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+
+background: -moz-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+
+background: -webkit-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4CD964", endColorstr="#3E9F4A", GradientType=1 );
+}
+.advice-sec h2{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+
+
 
 
 .ftco-footer-social li {
@@ -448,7 +476,7 @@ footer {
   padding: 7em 0; }
 
 .footer-04 {
-  background: #272727;
+  background: #000;
   padding-bottom: 0; }
   .footer-04 .border-top {
     border-color: #1a1a1a !important;
