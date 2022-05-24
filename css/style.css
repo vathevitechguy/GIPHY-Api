@@ -400,19 +400,19 @@ header {
 
 /* Advice Section */
 .advice-sec{
-  height: 434px;
+  height: 450px;
   padding-top: 60px;
   background: hsla(130, 65%, 57%, 1);
 
-background: hsla(130, 65%, 57%, 1);
-
-background: linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
-
-background: -moz-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
-
-background: -webkit-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
-
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4CD964", endColorstr="#3E9F4A", GradientType=1 );
+  background: hsla(130, 65%, 57%, 1);
+  
+  background: linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+  
+  background: -moz-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+  
+  background: -webkit-linear-gradient(315deg, hsla(130, 65%, 57%, 1) 0%, hsla(127, 44%, 43%, 1) 55%, hsla(9, 59%, 7%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4CD964", endColorstr="#3E9F4A", GradientType=1 );
 }
 .advice-sec h2{
   color: #fff;
@@ -420,11 +420,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#4CD964", en
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 .advice-sec p{
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 50px;
   text-align: center;
