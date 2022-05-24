@@ -44,9 +44,60 @@ function letSee() {
   
   
 
-  request.send();
-  newRequest.send();
-}
+//   request.send();
+//   newRequest.send();
+// }
+
+
+
+// let newRequest = new XMLHttpRequest();
+
+// let newUrl = "https://api.adviceslip.com/advice";
+
+
+// newRequest.open("GET", newUrl, true);
+
+// newRequest.onload = function() {
+// let newData = JSON.parse(this.response);
+
+  
+// };
+// newRequest.onload = function() {
+
+//   let newData = JSON.parse(this.response);
+//  if (newRequest.status >= 200 && newRequest.status < 400) {
+//           $("#advice").text(newData["slip"].advice);
+//                 }
+
+// };
+
+// newRequest.send();
+
+// function reset() {
+//   let newRequest = new XMLHttpRequest();
+
+//   let newUrl = "https://api.adviceslip.com/advice";
+  
+  
+//   newRequest.open("GET", newUrl, true);
+  
+//   newRequest.onload = function() {
+//   let newData = JSON.parse(this.response);
+  
+    
+//   };
+  
+//   newRequest.onload = function() {
+  
+//     let newData = JSON.parse(this.response);
+//    if (newRequest.status >= 200 && newRequest.status < 400) {
+//             $("#advice").text(newData["slip"].advice);
+//                   }
+  
+//   };
+  
+//   newRequest.send();
+// }
 
 //Activation Key 
 //rVeCO4fnPWt76cdVHVt5fB43PzHqwKOa
