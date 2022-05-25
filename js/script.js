@@ -27,20 +27,20 @@ function letSee() {
 
   //OPTIONAL
   
-  let newRequest = new XMLHttpRequest();
-  let newUrl = "https://api.adviceslip.com/advice/search/"+searchInput;
-  newRequest.open("GET", newUrl, true);
-  newRequest.onload = function() {
+  // let newRequest = new XMLHttpRequest();
+  // let newUrl = "https://api.adviceslip.com/advice/search/"+searchInput;
+  // newRequest.open("GET", newUrl, true);
+  // newRequest.onload = function() {
 
-    let newRes = JSON.parse(this.response);
-    if (newRequest.status >= 200 && newRequest.status < 400) {
-      let resAdv = newRes.slips[0].advice;
-      console.log(resAdv);
-      $("#advice").text(resAdv);
-    }
+  //   let newRes = JSON.parse(this.response);
+  //   if (newRequest.status >= 200 && newRequest.status < 400) {
+  //     let resAdv = newRes.slips[0].advice;
+  //     console.log(resAdv);
+  //     $("#advice").text(resAdv);
+  //   }
 
     
-  };
+  // };
   
   
 
