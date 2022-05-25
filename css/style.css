@@ -96,9 +96,9 @@ header {
   padding-top: 90px;
   height: 660px;
   width: 100%;
-  background: url("banner.jpg");
+/*   background: url("banner.jpg");
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   color: white;
   font-family: 'Open Sans', sans-serif;
   margin-top: -30px;
