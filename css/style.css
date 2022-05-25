@@ -395,8 +395,9 @@ header {
   font-size: 28px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
-  text-align: center;
+  text-align: center !important;
   margin-top: -35px;
+  position: relative;
 }
 
 
