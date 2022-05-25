@@ -24,8 +24,9 @@ function letSee() {
 
     
   };
+}
 
-  //OPTIONAL
+//OPTIONAL
   
 //   let newRequest = new XMLHttpRequest();
 //   let newUrl = "https://api.adviceslip.com/advice/search/"+searchInput;
@@ -47,8 +48,3 @@ function letSee() {
 //   request.send();
 //   newRequest.send();
 // }
-
-//Activation Key 
-//rVeCO4fnPWt76cdVHVt5fB43PzHqwKOa
-
-//https://api.adviceslip.com/advice/search/spiders
