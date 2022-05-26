@@ -678,13 +678,19 @@ footer {
 
 /*GIFS Page  */
 
-
+/* .main2{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
 .mainSearch{
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 25%;
   transition: all 1s;
-  width: 500px;
+  width: 700px;
   height: 50px;
   background: white;
   box-sizing: border-box;
@@ -723,7 +729,7 @@ footer {
     transition: all 1s;
 }
 .mainSearch:hover{
-    width: 500px;
+    width: 700px;
     cursor: pointer;
 }
 
