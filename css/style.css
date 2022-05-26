@@ -677,17 +677,15 @@ footer {
 
 
 /*GIFS Page  */
-
-/* .main2{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-} */
+#hdgif{
+  
+}
+.main2{
+  padding-top: 12%;
+}
 .mainSearch{
   position: absolute;
-  top: 50%;
+/*   top: 50%; */
   left: 25%;
   transition: all 1s;
   width: 700px;
