@@ -750,6 +750,10 @@ footer {
   padding-bottom: 90px;
   color: #fff;
 }
+#help video{
+  width: 230px; 
+  height: auto;
+}
 #help h2{
   font-size: 35px;
   font-weight: 700;
@@ -762,4 +766,7 @@ footer {
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   text-align: center;
+}
+#help p{
+  padding: 0 30px 0 30px;
 }
