@@ -51,40 +51,6 @@ nav{
   margin-right: 0px;
 }
 
-/* Custom Responsiveness */
-@media (max-width:480px){
-  .navbar-brand{
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-  }
-  .navbar-toggler{
-    margin-right: 10px !important;
-  }
-  .advice-sec{
-    height: 800px !important;
-  }
-  .htu{
-    margin-top: 840px !important;
-  }
-  .intro video{
-    padding-bottom: 70px;
-    justify-self: center;
-  }
-}
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-  .navbar-brand{
-    margin-left: 40px !important;  
-    margin-right: 0px !important;
-  }
-  #navbarNav ul{
-    margin-left: 600px !important;
-  }
-
-}
 
 .nav-link{
   color: #fff !important;
@@ -765,4 +731,14 @@ footer {
 .mainSearch:hover .fa{
     background: #4cd964;
     color: white;
+}
+.main2 a{
+  text-align: center !important;
+  font-size: 23px !important;
+}
+.main2 a:hover{
+  color: #000 !important;
+}
+.result-sec{
+  display: none;
 }
