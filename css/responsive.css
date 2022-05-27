@@ -17,6 +17,13 @@
     padding-bottom: 70px;
     justify-self: center;
   }
+  .mainSearch{
+    width: 400px;
+    margin-top: 40px;
+  }
+  .mainSearch:hover{
+    width: 400px;
+  }
 }
 @media only screen 
   and (min-device-width: 768px) 
