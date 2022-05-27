@@ -739,9 +739,6 @@ footer {
 .main2 a:hover{
   color: #000 !important;
 }
-.result-sec{
-  display: none;
-}
 #help{
   display: none;
   height: auto;
@@ -768,11 +765,31 @@ footer {
   text-align: center;
 }
 #help p{
-  padding: 0 30px 0 30px;
+  padding: 0 30px 20px 30px;
 }
 #closeHelp i{
   font-size: 40px !important;
   float: right;
   padding-top: 50px !important;
   cursor: pointer;
+}
+
+#result{
+  display: block;
+  padding-top: 50px;
+}
+#result h3{
+  font-size: 33px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  color: #fff;
+  margin-top: 50px;
+}
+#bodyy{
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px
+/*   align-items: center;
+  justify-content: center; */
 }
