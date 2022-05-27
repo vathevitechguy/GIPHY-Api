@@ -1,190 +1,194 @@
 <!DOCTYPE html>
 <html>
-  <head>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Jessica GIPHY</title>
-<!--     <link rel="stylesheet" href="css/ionicons.min.css" type="text/css"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-	 crossorigin="anonymous">
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/responsive.css" rel="stylesheet" type="text/css">
-  </head>
-  
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#">Jess<span style="color: #4cd964">.GIPHY</span></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#intro">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="gifs.html">Gifs</a>
-              </li>
-              <li class="nav-item">
-               <a class="nav-link" href="about.html">About</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-      <header class="intro" id="intro">
-        <div class="intro-overlay">
-          <div class="intro-content">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-8">
-                 <h2>Browse & enjoy thousands of gifs on Jess<span style="color: #4cd964">.GIPHY</span> free <br>database</h2>
-                  <p>Search desired keyword to generate top gifs in seconds.</p>
-                  <form action="">
-                    <input class="searchQ" type="search" placeholder="Search keyword">
-                    <i class="fa fa-search" onclick="letSee()"></i>
-                  </form>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Jessica GIPHY</title>
+        <!--     <link rel="stylesheet" href="css/ionicons.min.css" type="text/css"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/responsive.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Jess<span style="color: #4cd964">.GIPHY</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#intro">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gifs.html">Gifs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-md-4">
-                  <center><video autoplay loop muted playsinline ><source src="https://developers.giphy.com/branch/master/static/sdk-phone-med-33e680560abfa325f0a6c73a8ecd4bde.mp4" type="video/mp4"></video></center>
-                </div>
-              </div>
-              <div class="mouse_scroll">
-              
-              		<div class="mouse">
-              			<div class="wheel"></div>
-              		</div>
-              		<div>
-              			<span class="m_scroll_arrows unu"></span>
-              			<span class="m_scroll_arrows doi"></span>
-              			<span class="m_scroll_arrows trei"></span>
-              		</div>
-              </div>
             </div>
-          </div>
-        </div>        
-      </header>
-    
-    <section class="htu">
-      <div class="row">
-        <div class="col-md-7">
-          <video autoplay loop muted playsinline width="100%" max-width="600px" height="auto"><source src="https://developers.giphy.com/branch/master/static/grid-cc-final-a5269040c4d0bef7352d726779741056.mp4" type="video/mp4"></video>
-        </div>
-        <div class="col-md-5">
-          <div class="desc">
-            <h2>How to Use<span style="color: #4cd964">?!</span></h2>
-            <p>Whatever your needs, it’s never been easier to bring the full GIPHY experience to your audience. Built with developers and product designers in mind, our SDK is the solution for incorporating Clips, GIFs, stickers, and exclusive content like GIPHY Text and Emoji into your next app or website.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="gs">
-      <h2>Get Started</h2>
-      <center>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-1">
-
-          </div>
-          <div class="col-md-5 gifsp">
-            <a href="gifs.html"  target="_blank"><img src="https://developers.giphy.com/branch/master/static/hearteyes-9373f2e8e69e0f7e4c62c54f6622e3f3.gif" width="250px" height="auto">
-            <h3>Search Jess. GIFs</h3>
-            <p>Click to go to gifs search page <br>for free.</p></a>
-          </div>
-          <div class="col-md-5 gifsplm">
-            <a href="about.html" target="_blank"><video autoplay loop muted playsinline width="300px" height="auto"><source src="media/jess.giphy.mp4" type="video/mp4"></video>
-            <h3>Learn More!</h3>
-            <p>Read more about our services <br>and subscription plans</p></a>
-          </div>
-          <div class="col-md-1">
-
-          </div>
-        </div>
-      </div>
-      </center>
-    </section>
-
-    <br><br
-    <section>
-      <div id="bodyy">
-        
-      </div>
-    </section>
-    <section class="advice-sec" id="adviceGen">
-      <div class="container">
-        <h2>Need An Advice Today?</h2>
-        <p>Use our advice generator to keep yourself going today</p>
-        <div class="row">
-          <div class="col-md-6">
-            <h4>Click the 'generate new' button below to see more radom advice in seconds.</h4>
-<!--             <center><video autoplay loop muted playsinline width="200px" height="auto" style="border-radius:50%; border: solid 5px #fff; "><source src="media/idea2.mp4" type="video/mp4"></video></center> -->
-            <center><button type="button" class="btn btn-lg" id="reset" onclick="reset()">Generate New</button></center>
-          </div>
-          <div class="col-md-6">
-            <p id="advice"  class="speech-bubble"></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <footer class="footer-04">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-						<h2 class="footer-heading"><a href="index.html" class="logo">Jess<span style="color: #4cd964">.GIPHY</span></a></h2>
-						<ul id="info">
-              <li><i cliass="fa-solid fa-location-dot"></i><b>Address: </b> <a href="https://about.google/">947 Ridge Lane<br>
-Brooklyn, NY 11210</a></li>
-              <li><i class="fa-solid fa-circle-phone"></i><b>Phone: </b> <a href="#">(203) 778-1755</a></li>
-              <li><i class="fa-solid fa-envelope-dot"></i><b>Email: </b> <a href="#">info@jess.giphy.com</a></li>
-              </ul>
-					</div>
-					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-						<h2 class="footer-heading">Quick Links</h2>
-						<ul class="list-unstyled">
-              <li><a href="gifs.html" class="py-1 d-block">Gifs</a></li><li><a href="about.html" class="py-1 d-block">About</a></li>
-              <li><a href="#adviceGen" class="py-1 d-block">Advice Generator</a></li>
-            </ul>
-					</div>
-					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-						<h2 class="footer-heading">Popular Search</h2>
-						<div class="tagcloud">
-	            <a href="#" class="tag-cloud-link">Ukraine</a>
-	            <a href="#" class="tag-cloud-link">Blockchain</a>
-	            <a href="#" class="tag-cloud-link">Johnny Depp</a>
-	            <a href="#" class="tag-cloud-link">America On Tech</a>
-	            <a href="#" class="tag-cloud-link">Netflix</a>
-	            <a href="#" class="tag-cloud-link">Cats</a>
-	            <a href="#" class="tag-cloud-link">Tesla</a>
-	            <a href="#" class="tag-cloud-link">Funny</a>
-	          </div>
-					</div>
-					<div class="col-md-6 col-lg-3 mb-md-0 mb-4">
-						<h2 class="footer-heading">Subcribe</h2>
-						<form action="#" class="subscribe-form">
-              <div class="form-group d-flex">
-                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
-                <button type="submit" class="form-control submit rounded-right"><span class="sr-only">Submit</span><i class="fa-solid fa-paper-plane"></i></button> 
-              </div>
-            </form>
-            <h2 class="footer-heading mt-5">Follow us</h2>
-            <ul class="ftco-footer-social p-0">
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa-brands fa-twitter"></span></a></li>
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa-brands fa-facebook"></span></a></li>
-              <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa-brands fa-instagram"></span></a></li>
-            </ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-  
-    <script src="js/script.js"></script>
-    <script src="js/advice.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  </body>
+        </nav>
+        <header class="intro" id="intro">
+            <div class="intro-overlay">
+                <div class="intro-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h2>Browse & enjoy thousands of gifs on Jess<span style="color: #4cd964">.GIPHY</span> free <br>database</h2>
+                                <p>Search desired keyword to generate top gifs in seconds.</p>
+                                <form action="">
+                                    <input class="searchQ" type="search" placeholder="Search keyword">
+                                    <i class="fa fa-search" onclick="letSee()"></i>
+                                </form>
+                            </div>
+                            <div class="col-md-4">
+                                <center>
+                                    <video autoplay loop muted playsinline >
+                                        <source src="https://developers.giphy.com/branch/master/static/sdk-phone-med-33e680560abfa325f0a6c73a8ecd4bde.mp4" type="video/mp4">
+                                    </video>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="mouse_scroll">
+                            <div class="mouse">
+                                <div class="wheel"></div>
+                            </div>
+                            <div>
+                                <span class="m_scroll_arrows unu"></span>
+                                <span class="m_scroll_arrows doi"></span>
+                                <span class="m_scroll_arrows trei"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="htu">
+            <div class="row">
+                <div class="col-md-7">
+                    <video autoplay loop muted playsinline width="100%" max-width="600px" height="auto">
+                        <source src="https://developers.giphy.com/branch/master/static/grid-cc-final-a5269040c4d0bef7352d726779741056.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-md-5">
+                    <div class="desc">
+                        <h2>How to Use<span style="color: #4cd964">?!</span></h2>
+                        <p>Whatever your needs, it’s never been easier to bring the full GIPHY experience to your audience. Built with developers and product designers in mind, our SDK is the solution for incorporating Clips, GIFs, stickers, and exclusive content like GIPHY Text and Emoji into your next app or website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gs">
+            <h2>Get Started</h2>
+            <center>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-5 gifsp">
+                            <a href="gifs.html"  target="_blank">
+                                <img src="https://developers.giphy.com/branch/master/static/hearteyes-9373f2e8e69e0f7e4c62c54f6622e3f3.gif" width="250px" height="auto">
+                                <h3>Search Jess. GIFs</h3>
+                                <p>Click to go to gifs search page <br>for free.</p>
+                            </a>
+                        </div>
+                        <div class="col-md-5 gifsplm">
+                            <a href="about.html" target="_blank">
+                                <video autoplay loop muted playsinline width="300px" height="auto">
+                                    <source src="media/jess.giphy.mp4" type="video/mp4">
+                                </video>
+                                <h3>Learn More!</h3>
+                                <p>Read more about our services <br>and subscription plans</p>
+                            </a>
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </section>
+        <br><br
+        <section>
+            <div id="bodyy">
+            </div>
+        </section>
+        <section class="advice-sec" id="adviceGen">
+            <div class="container">
+                <h2>Need An Advice Today?</h2>
+                <p>Use our advice generator to keep yourself going today</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Click the 'generate new' button below to see more radom advice in seconds.</h4>
+                        <!--             <center><video autoplay loop muted playsinline width="200px" height="auto" style="border-radius:50%; border: solid 5px #fff; "><source src="media/idea2.mp4" type="video/mp4"></video></center> -->
+                        <center><button type="button" class="btn btn-lg" id="reset" onclick="reset()">Generate New</button></center>
+                    </div>
+                    <div class="col-md-6">
+                        <p id="advice"  class="speech-bubble"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                        <h2 class="footer-heading"><a href="index.html" class="logo">Jess<span style="color: #4cd964">.GIPHY</span></a></h2>
+                        <ul id="info">
+                            <li><i cliass="fa-solid fa-location-dot"></i><b>Address: </b> <a href="https://about.google/">947 Ridge Lane<br>
+                                Brooklyn, NY 11210</a>
+                            </li>
+                            <li><i class="fa-solid fa-circle-phone"></i><b>Phone: </b> <a href="#">(203) 778-1755</a></li>
+                            <li><i class="fa-solid fa-envelope-dot"></i><b>Email: </b> <a href="#">info@jess.giphy.com</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Quick Links</h2>
+                        <ul class="list-unstyled">
+                            <li><a href="gifs.html" class="py-1 d-block">Gifs</a></li>
+                            <li><a href="about.html" class="py-1 d-block">About</a></li>
+                            <li><a href="#adviceGen" class="py-1 d-block">Advice Generator</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Popular Search</h2>
+                        <div class="tagcloud">
+                            <a href="#" class="tag-cloud-link">Ukraine</a>
+                            <a href="#" class="tag-cloud-link">Blockchain</a>
+                            <a href="#" class="tag-cloud-link">Johnny Depp</a>
+                            <a href="#" class="tag-cloud-link">America On Tech</a>
+                            <a href="#" class="tag-cloud-link">Netflix</a>
+                            <a href="#" class="tag-cloud-link">Cats</a>
+                            <a href="#" class="tag-cloud-link">Tesla</a>
+                            <a href="#" class="tag-cloud-link">Funny</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-md-0 mb-4">
+                        <h2 class="footer-heading">Subcribe</h2>
+                        <form action="#" class="subscribe-form">
+                            <div class="form-group d-flex">
+                                <input type="text" class="form-control rounded-left" placeholder="Enter email address">
+                                <button type="submit" class="form-control submit rounded-right"><span class="sr-only">Submit</span><i class="fa-solid fa-paper-plane"></i></button> 
+                            </div>
+                        </form>
+                        <h2 class="footer-heading mt-5">Follow us</h2>
+                        <ul class="ftco-footer-social p-0">
+                            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span class="fa-brands fa-twitter"></span></a></li>
+                            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span class="fa-brands fa-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span class="fa-brands fa-instagram"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/advice.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    </body>
 </html>
