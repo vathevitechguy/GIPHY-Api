@@ -678,14 +678,31 @@ footer {
 
 /*GIFS Page  */
 #hdgif{
-  background: grey;
+  background: linear-gradient(-45deg, #000, #4cd964, rgb(153, 51, 255), #4cd964);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 80%;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 #hdgif h2{
   text-align: center;
   padding-bottom: 25px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 .main2{
-  padding-top: 12%;
+  padding-top: 10%;
 }
 .mainSearch{
    position: relative;
