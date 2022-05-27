@@ -742,3 +742,8 @@ footer {
 .result-sec{
   display: none;
 }
+#help{
+  display: none;
+  height:50px;
+  background: #fff;
+}

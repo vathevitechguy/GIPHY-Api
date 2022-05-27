@@ -1,5 +1,6 @@
 function letSee() {
-  
+
+  $("#result").css("display","block");
   $("#bodyy").text("");
   let searchInput = $(".searchQ").val();
   let request = new XMLHttpRequest();
@@ -53,3 +54,8 @@ function letSee() {
 //rVeCO4fnPWt76cdVHVt5fB43PzHqwKOa
 
 //https://api.adviceslip.com/advice/search/spiders
+
+function help(){
+  $("#help").css("display","block");
+}
+   
