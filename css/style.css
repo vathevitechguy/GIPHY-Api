@@ -717,7 +717,7 @@ footer {
   border-radius: 50%;
   color: #07051a;
   text-align: center;
-  font-size: 1.2em;
+  font-size: .9em !important;
   transition: all 1s;
 }
 .mainSearch:hover{
