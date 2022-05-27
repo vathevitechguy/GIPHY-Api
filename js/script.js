@@ -3,6 +3,8 @@ function letSee() {
   $("#result").css("display","block");
   $("#bodyy").text("");
   let searchInput = $(".searchQ").val();
+  
+  $("#searchVal").text(searchInput);
   let request = new XMLHttpRequest();
   let url = "https://api.giphy.com/v1/gifs/search?q="+searchInput+"&api_key=Kj9njWiMuBguPTWRKCT3QzWawcMtrzHO";
 

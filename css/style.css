@@ -775,21 +775,27 @@ footer {
 }
 
 #result{
-  display: block;
+  display: none;
   padding-top: 50px;
 }
 #result h3{
-  font-size: 33px;
+  font-size: 29px;
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   color: #fff;
   margin-top: 50px;
 }
+#searchVal{
+  color: #4cd964;
+  font-style: italic;
+  font-size: 25px
+  text-transform: lowercase;
+}
 #bodyy{
   background: #fff;
   border-radius: 10px;
-  margin-top: 20px
+  margin-top: 30px
 /*   align-items: center;
   justify-content: center; */
 }
