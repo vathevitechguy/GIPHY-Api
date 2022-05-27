@@ -677,8 +677,9 @@ footer {
 
 
 /*GIFS Page  */
-#hdgif{
-  
+#hdgif h2{
+  text-align: center;
+  padding-bottom: 25px;
 }
 .main2{
   padding-top: 12%;
@@ -689,7 +690,7 @@ footer {
   left: 50%;
   transform: translate(-50%,-50%);
   transition: all 1s;
-  width: 50px;
+  width: 700px;
   height: 50px;
   background: white;
   box-sizing: border-box;
@@ -707,33 +708,34 @@ footer {
     line-height: 30px;
     outline: 0;
     border: 0;
-    display: none;
+    display: block;
     font-size: 1em;
     border-radius: 20px;
     padding: 0 20px;
 }
 
 .mainSearch .fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
-    color: #07051a;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
+  background: #4cd964;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #07051a;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
 }
 .mainSearch:hover{
-    width: 700px;
-    cursor: pointer;
+  width: 700px;
+  cursor: pointer;
 }
 
 .mainSearch:hover input{
-    display: block;
+  display: block;
 }
 
 .mainSearch:hover .fa{
