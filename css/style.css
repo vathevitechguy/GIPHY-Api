@@ -744,6 +744,22 @@ footer {
 }
 #help{
   display: none;
-  height:50px;
-  background: #fff;
+  height: auto;
+  background: #000;
+  text-align: center;
+  padding-bottom: 90px;
+  color: #fff;
+}
+#help h2{
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+#help h3{
+  font-size: 28px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
