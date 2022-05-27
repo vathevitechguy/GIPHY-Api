@@ -42,12 +42,15 @@
       <input class="searchQ" type="search" placeholder="Search keyword">
       <i class="fa fa-search" onclick="letSee()"></i>
       </form>
-      <center><a href="#help" onclick="help()">Need help on how it work?</a></center>
+      <center><a href="#help" onclick="help()"> <i class="fa-solid fa-chevron-down"> </i>  Need help on how it work?</a></center>
     </div>
   </header>
   <section id="help">
     <div class="container">
       <div class="row">
+        <div id="closeHelp">
+          <i class="fa-solid fa-xmark" onclick="closeHelp()"></i>
+        </div>
         <h2>How it Works<span style="color: #4cd964">?</span></h2>
         <div class="col-md-4">
           <video autoplay loop muted playsinline><source src="media/one.mp4" type="video/mp4"></video>

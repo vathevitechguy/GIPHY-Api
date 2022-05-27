@@ -58,4 +58,8 @@ function letSee() {
 function help(){
   $("#help").css("display","block");
 }
+
+function closeHelp(){
+  $("#help").css("display","none");
+}
    
