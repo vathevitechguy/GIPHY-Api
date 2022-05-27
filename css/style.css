@@ -677,6 +677,9 @@ footer {
 
 
 /*GIFS Page  */
+#hdgif{
+  background: grey;
+}
 #hdgif h2{
   text-align: center;
   padding-bottom: 25px;
@@ -691,6 +694,7 @@ footer {
   transform: translate(-50%,-50%);
   transition: all 1s;
   width: 700px;
+  max-width: auto;
   height: 50px;
   background: white;
   box-sizing: border-box;
