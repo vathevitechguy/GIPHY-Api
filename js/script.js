@@ -66,16 +66,4 @@ function closeHelp(){
 }
 
 // Change Navbar Color on scroll
-// $(document).ready(function(){
-//   $(window).scroll(function(){
-//   	var scroll = $(window).scrollTop();
-// 	  if (scroll > 300) {
-// 	    $(".navbarTrans").css("background" , "#000");
-// 	  }
-
-// 	  else{
-// 		  $(".navbarTrans").css("background" , "#000");  	
-// 	  }
-//   })
-// })
-
+  
