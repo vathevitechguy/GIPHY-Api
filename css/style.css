@@ -856,6 +856,9 @@ footer {
   border-radius: 4px;
   padding: 4px 9px;
 }
+.navbarTrans{
+  position: absolute !important;
+}
 .subheading:after {
   position: absolute;
   bottom: -5px;
@@ -871,7 +874,10 @@ footer {
   border-color: #4cd964 transparent transparent transparent;
 }
 #profile{
-  padding: 90px 0 90px 0;
+  padding: 120px 0 120px 0;
+}
+image-aright
+/*   float: right; */
 }
 .image-about:before {
     position: absolute;
@@ -881,7 +887,7 @@ footer {
     height: 100px;
     content: '';
     background: #f2f2f2;
-    background: #89c4fb;
+    background: #4cd964;
     z-index: -1;
 }
 .image-about:after {
@@ -892,7 +898,7 @@ footer {
     height: 100px;
     content: '';
     background: #f2f2f2;
-    background: #57abfa;
+    background: #215f2b;
     z-index: -1;
 }
 .hire{
@@ -923,4 +929,30 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+.abtwhy h2{
+  color: #fff;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+.abtwhy p{
+  color: #fff;
+  padding-bottom: 15px;
+  line-height: 30px;
+  font-size: 19px;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+#fav h2{
+  color: #fff;
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
