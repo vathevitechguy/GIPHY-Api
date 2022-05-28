@@ -833,3 +833,12 @@ footer {
   background-attachment: fixed;
   z-index: 0;
 }
+.abthd h2{
+  color: #fff;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
