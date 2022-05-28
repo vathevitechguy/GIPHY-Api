@@ -36,10 +36,11 @@ nav{
   top: 0;
   width: 100%;
   z-index:1;
-  background-color: rgba(0, 0, 0, 0) !important;
-/*   background-color: #000 !important; */
+/*   background-color: rgba(0, 0, 0, 0) !important; */
+  background-color: #000 !important;
 /*   padding-left: 100px; */
 }
+
 .navbar-brand{
   color: #fff !important;
   font-size: 24px;
@@ -75,6 +76,16 @@ nav{
   margin-right: 40px !important;
 }
 
+/*Transparent Navbar  */
+.navbarTrans{
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+/* .navbarTrans .navbar-brand{
+  font-size: 26px;
+}
+.navbarTrans .nav-link{
+  font-size: 15px;
+} */
 
 /* Header */
 header {
