@@ -36,8 +36,8 @@ nav{
   top: 0;
   width: 100%;
   z-index:1;
-/*   background-color: rgba(0, 0, 0, 0.644) !important; */
-  background-color: #000 !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+/*   background-color: #000 !important; */
 /*   padding-left: 100px; */
 }
 .navbar-brand{
@@ -813,11 +813,12 @@ footer {
 
 /*About Page  */
 .abthd{
-  padding-top: 90px;
-  height: 660px;
-  width: 100%;
-  background-image: url(banner.jpeg) !important;
-  background-attachment: fixed !important;
-  background-size: cover !important;
-/*   background-color: #fff !important; */
+  height: 100vh;
+  min-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  z-index: 0;
 }
