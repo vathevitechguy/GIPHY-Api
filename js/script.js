@@ -6,7 +6,7 @@ function letSee() {
   
   $("#searchVal").text(searchInput);
   let request = new XMLHttpRequest();
-  let url = "https://api.giphy.com/v1/gifs/search?q="+searchInput+"&api_key=Kj9njWiMuBguPTWRKCT3QzWawcMtrzHO";
+  let url = "https://api.giphy.com/v1/gifs/search?q="+searchInput+"&api_key=yvfvXNuWXDn0sD6Cvmy7Z38rR7WanX3F";
 
   request.open("GET", url, true);
 
