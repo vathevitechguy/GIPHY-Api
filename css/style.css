@@ -876,11 +876,11 @@ footer {
 #profile{
   padding: 120px 0 120px 0;
 }
-image-about{
+/* image-about{
   height: 500px; 
   position: relative; 
   width: 59%;
-}
+} */
 .image-about:before {
   position: absolute;
   bottom: 130px;
