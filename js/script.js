@@ -82,7 +82,7 @@ function closeHelp(){
        //  });
 
 
-// // IIFE Function
+// // IIFE Function - Automatic Responder
 // (function LoadApp(){
 //    console.log("App is loading");
 //   console.log("App is loaded");
