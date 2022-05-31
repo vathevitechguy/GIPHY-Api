@@ -81,8 +81,10 @@ function closeHelp(){
        //      $(".main-menu > ul > li > a ").css({'color':'#fff'});
        //  });
 
-(function LoadApp(){
-   console.log("App is loading");
-  console.log("App is loaded");
-})();
+
+// // IIFE Function
+// (function LoadApp(){
+//    console.log("App is loading");
+//   console.log("App is loaded");
+// })();
      
