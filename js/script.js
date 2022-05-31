@@ -82,7 +82,7 @@ function closeHelp(){
        //  });
 
 (function LoadApp(){
-   console.log("App is loading'
-      console.log("App is loaded")
+   console.log("App is loading");
+  console.log("App is loaded");
 })();
      
