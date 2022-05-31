@@ -64,19 +64,3 @@ function help(){
 function closeHelp(){
   $("#help").css("display","none");
 }
-
-// Change Navbar Color on scroll
-       // $(window).scroll(function() {
-       //  var value = $(this).scrollTop();
-       //  if (value > 5)
-       //      $(".navbarTrans").css({'color':'#000 !important'});
-       //    console.log("Working")
-       //  else
-       //      $(".logo").attr("src", topIMG);
-       //      $(".main-menu > ul > li > a ").css({'color':'#000'});
-       //      $("#reg-btn").css({'color':'#fff !important'});
-       //      $("#log-btn").css({'color':'#000'});
-       //      $(".scroll-to-top").css({'display': 'inline'});
-       //  if (value < 5)
-       //      $(".main-menu > ul > li > a ").css({'color':'#fff'});
-       //  });
