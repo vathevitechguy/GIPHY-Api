@@ -21,7 +21,6 @@ const letSee = async function () {
           <img src=${dt.images.fixed_height.url} class="gifdiv">
         </div>
         `);
-        console.log('Downloaded', dt);
       });
     } else {
       throw new Error('Something went Wrong');
