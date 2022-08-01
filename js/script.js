@@ -11,10 +11,10 @@ const letSee = async function () {
     const getApi = await fetch(
       `https://api.giphy.com/v1/gifs/search?q=${keyword}&api_key=yvfvXNuWXDn0sD6Cvmy7Z38rR7WanX3F`
     );
-    const res = await getApi.json();
-    const data = await res.data;
 
     if (getApi.status >= 200 && getApi.status < 400) {
+      const res = await getApi.json();
+      const data = await res.data;
       data.forEach(async (dt) => {
         await $('#bodyy').append(`
         <div class="col-md-3 col-lg-3 mb-md-0 mb-4" style="overflow:hidden; margin-bottom: 30px !important;">
