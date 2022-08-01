@@ -17,7 +17,7 @@ const letSee = async function () {
       const data = await res.data;
       data.forEach(async (dt) => {
         await $('#bodyy').append(`
-        <div class="col-md-3 col-lg-3 mb-md-0 mb-4" style="overflow:hidden; margin-bottom: 30px !important;">
+        <div class="col-6 col-md-3 col-lg-3 mb-md-0 mb-6" style="overflow:hidden; margin-bottom: 30px !important;">
           <img src=${dt.images.fixed_height.url} class="gifdiv">
         </div>
         `);
