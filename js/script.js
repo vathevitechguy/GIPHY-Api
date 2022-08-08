@@ -1,5 +1,6 @@
 const searchInput = document.querySelector('.searchQ');
-const btnSearch = document.querySelector('.btn-search');
+const btnSearch = document.querySelector('.mainSearch');
+const searchResults = document.querySelector('#result');
 
 // Get Api: Asynchronous
 const letSee = async function () {
@@ -30,13 +31,11 @@ const letSee = async function () {
   }
 };
 
-btnSearch.addEventListener('click', letSee);
-// searchInput.addEventListener('keydown', function (e) {
-//   e.preventDefault();
-//   if (e.key === 'Enter' && $(searchInput).val() != ''){
-//     letSee();
-//   }
-// });
+btnSearch.addEventListener('submit', function (e) {
+  e.preventDefault();
+  letSee();
+  searchResults.scrollIntoView({ behavior: 'smooth' });
+});
 
 function help() {
   $('#help').css('display', 'block');
